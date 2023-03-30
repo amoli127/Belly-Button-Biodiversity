@@ -109,11 +109,11 @@ function buildCharts(sample) {
 
     var bubbleData = [{
       x: otu_ids,
-      y: sample_values,
+      y: sampleValues,
       text: otu_labels,
       mode: "markers",
       marker: {
-        size: sample_values,
+        size: sampleValues,
         color: otu_ids,
         colorscale: "YlGnBu"
       }

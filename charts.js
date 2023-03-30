@@ -88,11 +88,11 @@ function buildCharts(sample) {
 
     // Deliverable 1: 8. Create the trace for the bar chart. 
     var barData = [{
-    x: sampleValues.slice(0, 10).reverse(),
-    y: yticks,
-    text: otu_labels.slice(0, 10).reverse(),
-    type: "bar",
-    orientation: "h"
+      x: sampleValues.slice(0, 10).reverse(),
+      y: yticks,
+      text: otu_labels.slice(0, 10).reverse(),
+      type: "bar",
+      orientation: "h"
     }
   ];
 
